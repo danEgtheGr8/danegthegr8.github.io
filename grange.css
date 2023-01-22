@@ -1,0 +1,257 @@
+html {
+}
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    
+}
+
+header {
+    padding-top: 20px;
+    background-image: url(../images/sm_hb.jpg);
+    color: #fff;
+    font-size: 120%;
+    text-align: center;
+}
+
+
+.call-outs-container {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.call-out,
+.call-out-1,
+.call-out-2 {
+    box-sizing: border-box;
+    flex-basis: 30%;    
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.family-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+.call-out {
+    flex: 3;
+    order: 2;
+}
+
+.main-column {
+    margin: 10 10 10 10px;
+}
+
+.call-out-1 {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-1 {
+    margin: 0 10 0 10px;
+    background-image: linear-gradient(to left, #FDD3D4, #fff);
+    font-size: 85%;
+
+}
+
+.family2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.family3 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.call-out-2 {
+    flex: 1;
+    order: 3;
+}
+
+.sidebar-2 {
+    margin: 0 10 0 10px;
+    background-image: linear-gradient(to right, #FDD3D4, #fff);
+    font-size: 85%;
+}
+
+.text-1 {
+    padding: 10 10 10 10px
+}
+
+.text-2 {
+    padding: 10 10 10 10px;
+}
+
+
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+    align-content: center;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.site-nav a:hover {
+    background-color: #fff;
+    color: #012A61;
+}
+/* End Site Navigation */
+
+.content-area {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+footer {
+    background-color: #012A61;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Grid System */
+
+.row {
+    margin-right: -20px;
+}
+.col {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.col-xs-11 {width: 91.662%;}
+.col-xs-10 {width: 83.332%;}
+.col-xs-9 {width: 75%;}
+.col-xs-8 {width: 66.662%;}
+.col-xs-7 {width: 58.331%;}
+.col-xs-6 {width: 50%;}
+.col-xs-5 {width: 41.662%;}
+.col-xs-4 {width: 33.332%;}
+.col-xs-3 {width: 25%;}
+.col-xs-2 {width: 16.662%;}
+.col-xs-1 {width: 8.332%;}
+
+@media screen and (min-width: 768px) {
+
+    .row {
+        margin-right: -40px;
+    }
+    
+    .col {
+        float: left;
+        width: 100%;
+        padding-right: 20px;
+        padding-right: 40px;
+    }
+
+    .col-sm-11 {width: 91.662%;}
+    .col-sm-10 {width: 83.332%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-8 {width: 66.662%;}
+    .col-sm-7 {width: 58.331%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-5 {width: 41.662%;}
+    .col-sm-4 {width: 33.332%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-2 {width: 16.662%;}
+    .col-sm-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1024px) {
+    .col-md-11 {width: 91.662%;}
+    .col-md-10 {width: 83.332%;}
+    .col-md-9 {width: 75%;}
+    .col-md-8 {width: 66.662%;}
+    .col-md-7 {width: 58.331%;}
+    .col-md-6 {width: 50%;}
+    .col-md-5 {width: 41.662%;}
+    .col-md-4 {width: 33.332%;}
+    .col-md-3 {width: 25%;}
+    .col-md-2 {width: 16.662%;}
+    .col-md-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1280px) {
+    .col-lg-11 {width: 91.662%;}
+    .col-lg-10 {width: 83.332%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-8 {width: 66.662%;}
+    .col-lg-7 {width: 58.331%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-5 {width: 41.662%;}
+    .col-lg-4 {width: 33.332%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-2 {width: 16.662%;}
+    .col-lg-1 {width: 8.332%;}
+}
+
+
+/* End Grid System*/
+
+.row:before,
+.row:after,
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.row:after,
+.group:after {
+    clear: both;
+}
+.row,
+.group {
+    zoom: 1;
+}
+
+
+.fix {
+    clear: both;
+}
